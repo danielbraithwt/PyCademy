@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pythoncontainer {
+	background-color: #CCC;
+	padding-bottom: 15px;
+	margin-right: 5px;
+	-moz-user-select: none;  
+	-webkit-user-select: none;  
+	-ms-user-select: none;  
+	-o-user-select: none;  
+	user-select: none;
+}
+
+.red {
+	color: #F00;
+	display: inline;
+}
+
+.green {
+	color: #0F0;
+	display: inline;
+}
+
+.yellow {
+	color: #FF0;
+	display: inline;
+}
+
+.purple {
+	color: #C6F;
+	display: inline;
+}

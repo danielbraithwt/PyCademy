@@ -1,0 +1,192 @@
+@charset "utf-8";
+#content {
+	height: auto;
+	width: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+/* CSS Document */
+
+
+#header {
+	height: 200px;
+	width: 100%;
+	background-color: #C2B49A;
+	background-image: url(../images/Header-Background.png);
+	/* [disabled]margin-bottom: 10px; */
+}
+
+#footer {
+	height: 50px;
+	width: 100%;
+	/* [disabled]background-color: #C2B49A; */
+	clear: both;
+	float: right;
+}
+#container #feedback {
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.6);
+}
+#container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat;
+	overflow: hidden;
+}
+html {
+	background-image: url(../images/background.gif);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+
+
+#header #account {
+	float: right;
+	height: 40px;
+	width: auto;
+	text-align: center;
+	vertical-align: top;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+#header #account a:link {color:#C8E635;}      /* unvisited link */
+#header #account a:visited {color:#C8E635;}  /* visited link */
+#header #account a:hover {color:#81E6AE;}  /* mouse over link */
+#header #account a:active {color:#81E6AE;}  /* selected link */
+
+#container #header #logo  {
+	float: left;
+	width: 498px;
+	height: auto;
+	margin-top: 30px;
+}
+
+#title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	color: #000;
+	text-decoration: underline;
+	height: 80px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: bolder;
+	font-style: oblique;
+	/* [disabled]padding-top: 2px; */
+	padding-bottom: 5px;
+}
+
+.form {
+	/* [disabled]height: 800px; */
+	/* [disabled]width: 400px; */
+	margin-right: auto;
+	margin-left: auto;
+	/* [disabled]background-color: #FF0; */
+	text-align: center;
+}
+
+.button {
+	border: none;
+	background-size:200px 100px;
+	width: 200px;
+	height: 100px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.text {
+	border: none;
+	font-size: 30px;
+	padding-top: 15px;
+	margin: 10px;
+	width: 380px;
+	height: auto;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	background: rgba(255, 255, 255, 0.8);
+	/*opacity: 0.6;*/
+	float: right;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+.radio {
+	float: none;
+	height: 80px;
+	width: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/*input {
+	font-size: 30px;
+	padding-top: 25px;
+	margin: 10px;
+	width: 380px;
+	height: 100px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	opacity: 0.4;
+	float: right;
+}*/
+
+input [type=text] {
+	font-size: 30px;
+	padding-top: 25px;
+	margin: 10px;
+	width: 380px;
+	height: 100px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	opacity: 0.4;
+	float: right;
+}	
+
+input [type=radio]
+{
+	float: left;
+	height: 100px;
+	width: 20px;
+	text-align: center;
+}
+
+input [type=button]
+{
+	background-size:200px 100px;
+	width: 200px;
+	height: 100px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity: 1;
+}
+#container #error {
+	font-size: x-large;
+	color: #000;
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	height: 200px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
